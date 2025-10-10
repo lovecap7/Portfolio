@@ -1,0 +1,105 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4517605073178109568
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 5901151195057431941}
+  - component: {fileID: 4308638402523465363}
+  - component: {fileID: 8202566532289410175}
+  m_Layer: 0
+  m_Name: PF_StageManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &5901151195057431941
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4517605073178109568}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &4308638402523465363
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4517605073178109568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 10fbc817ae42b9540bd673ca8714cb16, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnIntervalTime: 5
+  spawnMinNum: 2
+  spawnMaxNum: 10
+--- !u!114 &8202566532289410175
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4517605073178109568}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0dd14ebb6c857c6469f3f52bcfdc1ac8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EvoItemPrefab: {fileID: 8138956398090787597, guid: 79a230d1dc816474e9c54d133ebffb91, type: 3}
+  _evoItemDataTable:
+  - evoType: 1
+    itemDatas:
+    - partName: 0
+      sprite: {fileID: 21300000, guid: 9e383bac02e3bdc4eb4a69e76a8ff12e, type: 3}
+    - partName: 1
+      sprite: {fileID: 21300000, guid: 91b3061ed4f36214da2e97d3da455a4f, type: 3}
+    - partName: 2
+      sprite: {fileID: 21300000, guid: c22d7155ccd2bd049af19153f39b5f3a, type: 3}
+  - evoType: 3
+    itemDatas:
+    - partName: 0
+      sprite: {fileID: 21300000, guid: d1fab413fa8fa2246a36eddf4c09e236, type: 3}
+    - partName: 1
+      sprite: {fileID: 21300000, guid: 1fd7cf118f799274ea4720e86690a9f5, type: 3}
+    - partName: 2
+      sprite: {fileID: 21300000, guid: 9b8136543f295924eb0368132d160ce5, type: 3}
+  - evoType: 2
+    itemDatas:
+    - partName: 0
+      sprite: {fileID: 21300000, guid: 82335f13c1d56694d94eb1b7aa600487, type: 3}
+    - partName: 1
+      sprite: {fileID: 21300000, guid: cccbe47aafafa7e4a8049aef61de859f, type: 3}
+    - partName: 2
+      sprite: {fileID: 21300000, guid: db7ea61cd36d5b94b826ec5820189ae1, type: 3}
+  _humanEvoItemDataTable:
+  - itemDatas:
+    - partName: 0
+      sprite: {fileID: 21300000, guid: 863a8331df904384094ae5c6c3ffc8b2, type: 3}
+    - partName: 1
+      sprite: {fileID: 21300000, guid: 40864becc19961d4d950f9a8e9e78e32, type: 3}
+    - partName: 2
+      sprite: {fileID: 21300000, guid: 75ae69fa974c3184897790c9fd0cab88, type: 3}
+    isDegenerate: 0
+  - itemDatas:
+    - partName: 0
+      sprite: {fileID: 21300000, guid: 72aba2523309b504795b2fa35bc7b0d5, type: 3}
+    - partName: 1
+      sprite: {fileID: 21300000, guid: 60ee7fb230c2f0b47866cdb5cd7fa1fd, type: 3}
+    - partName: 2
+      sprite: {fileID: 21300000, guid: 0413328eba07c6a4cacfb4c973329bbc, type: 3}
+    isDegenerate: 1
