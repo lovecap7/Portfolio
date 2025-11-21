@@ -25,6 +25,12 @@ bool Application::Init()
 	//このフラグがtrueの時アプリケーションが終了する
 	m_isFinishApplication = false;
 
+#if _DEBUG
+	m_isWindow = true;
+#else
+	m_isWindow = false;
+#endif
+
 	//ゲームタイトル
 	SetWindowText(L"BRAVE BLADE");
 	//ゲームアイコン
